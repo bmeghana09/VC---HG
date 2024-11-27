@@ -1,0 +1,39 @@
+ABSTRACT :-
+The intention of this implementation is to discuss a novel approach of hand gesture recognition based on detection of some shape based features. The setup consists of a single camera to capture the gesture formed by the user and take this as input to the system. By implementing real time gestures recognition a user can control a computer by doing a specific gesture in front of a video camera linked to a computer. In this project we will develop a hand gesture volume control system with the help of OpenCV module.
+
+
+INTRODUCTION :-
+The main feature of using hand gestures is to interact with the computer as an input unit. The gesture is defined as a form of nonverbal communication or non-vocal communication where the body's movement can convey certain messages. Gestures originated from different parts of the human body, but the most common ones emerge from the hand or face.  
+
+
+PROBLEM STATEMENT :-
+With the development of ubiquitous computing, current user interaction approaches with keyboard, mouse, and pen are not sufficient. Due to the limitation of these devices, the useable command set is also limited. Direct use of hands can be used as an input device for providing natural interaction. 
+In this project, we built a model which can control your laptop or desktop volume by using hand gestures. To build this model, we used a media pipe library which is used to detect the hand gesture and fingers.
+
+
+PROPOSED SYSTEM :-
+Traditional input devices are available for interaction with computer, such as keyboard, mouse, joystick as well as touch screen; however they do not provide natural interface. The proposed system will consist of a desktop or laptop interface, which requires only a web camera, thus realizing a natural interaction between humans and computers without the use of any extra devices like data gloves.
+
+
+LIBRARIES :-
+OpenCV is a pre-built, open-source CPU-only library (package) that is widely used for computer vision, machine learning, and image processing applications. 
+Mediapipe is a cross-platform library developed by Google that provides amazing ready-to-use ML solutions for computer vision tasks.
+NumPy can be used to perform a wide variety of mathematical operations on arrays. 
+Python hypot() is an inbuilt method that is defined under the math module.
+Protobuf is great for Low data volume.
+
+
+MODULE PRESENTATION :-
+Object detection is a computer vision technique that works to identify and locate objects within an image or video. 
+Hand tracking is the process in which a computer uses computer vision to detect a hand from an input image and keeps focus on the hand’s movement and orientation. 
+Feature Extraction uses an object-based approach to classify imagery, where an object (also called segment) is a group of pixels with similar spectral, spatial, and/or texture attributes. 
+Gesture control is the ability to recognize and interpret movements of the human body in order to interact with and control a computer system without direct physical contact. 
+Detect hand landmarks.
+Calculate the distance between the thumb tip and index fingertip.
+Map the distance of the thumb tip and index fingertip with volume range and thus convert that distance to volume.
+Hand tracking is the process in which a computer uses computer vision to detect a hand from an input image and keeps focus on the hand’s movement and orientation. Hand tracking allows us to develop numerous programs that use hand movement and orientation as their input.
+
+
+CONCLUSION :-
+The project presented a program that allowed user to perform hand gestures for easy software control. A vision-based hand Gesture system that does not require any special markers or gloves and can operate in real-time on a commodity PC with low-cost cameras. Specifically, the system can track the tip positions of the counters and index finger for each hand. The motivation for this hand Gesture was a desktop-based volume control system in which a user can control volume and cursor navigation in realtime using natural hand motions. Besides, we propose to employ the motion of the mouse cursor controlled by the hand, and give a suggestion about how to, on the bare hand, position a point through which to control the movement of the mouse cursor.
+
